@@ -57,6 +57,8 @@ function criaCalculadora(){
                     this.realizaConta();
                 }
 
+                this.display.focus();
+
             }.bind(this));
         },
 
